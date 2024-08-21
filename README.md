@@ -15,7 +15,10 @@ Este repositório abrigará o código-fonte do aplicativo Pernambuco Total, um g
 ## Próximos Passos
 
 - [ ] Implementar a interface do usuário com Flet.
+- [ ] Criar as telas/páginas do aplicativo (frontend/screens).
 - [ ] Conectar o aplicativo a um banco de dados SQLite.
+- [ ] Modelar o banco de dados SQLite (vamos precisar de tabelas para Locais, Roteiros, etc.).    
+- [ ] Construir a API REST para conectar o frontend ao banco de dados.
 - [ ] Desenvolver as funcionalidades principais (listagem de locais, busca, etc.).
 
 ## Tecnologias
