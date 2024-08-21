@@ -1,0 +1,22 @@
+ape/
+├── backend/               # Código do backend (API, banco de dados)
+│   ├── __init__.py
+│   ├── app.py           # Arquivo principal da API (Flask/FastAPI)
+│   ├── models.py         # Modelos de dados (ex: Local, Roteiro)
+│   └── services.py       # Lógica de negócio (interação com o banco de dados)
+├── frontend/              # Código do Frontend (Flet)
+│   ├── __init__.py
+│   ├── main.py          # Arquivo principal do Flet
+│   ├── screens/          # Telas/Páginas do aplicativo
+│   │   ├── __init__.py
+│   │   ├── home_screen.py 
+│   │   └── detalhes_screen.py
+│   └── components/        # Componentes reutilizáveis da interface
+│       ├── __init__.py
+│       └── mapa_widget.py
+├── static/                # Arquivos estáticos (imagens, CSS, etc.)
+│   └── images/
+├── database/             # Arquivos relacionados ao banco de dados
+│   └── db.sqlite         # Arquivo do banco de dados SQLite
+└── 
+    └── requirements.txt    # Lista de dependências do projeto
