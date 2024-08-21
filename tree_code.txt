@@ -20,3 +20,19 @@ ape/
 │   └── db.sqlite         # Arquivo do banco de dados SQLite
 └── 
     └── requirements.txt    # Lista de dependências do projeto
+
+Explicando a Estrutura:
+
+backend/: Contém todo o código relacionado à API REST e à interação com o banco de dados.
+app.py: Arquivo principal da API, onde as rotas e a lógica principal do backend serão definidas.
+models.py: Define as estruturas de dados (modelos) para representar os objetos do aplicativo (Locais, Roteiros, etc.).
+services.py: Contém a lógica de negócio, como funções para interagir com o banco de dados, processar dados, etc.
+frontend/: Contém todo o código do frontend desenvolvido com Flet.
+main.py: Arquivo principal do Flet, responsável por iniciar o aplicativo e gerenciar as rotas/telas.
+screens/: Contém os arquivos que representam as telas ou páginas do aplicativo Flet (ex: Tela Inicial, Tela de Detalhes de um Local, Tela de Roteiro).
+components/: Componentes reutilizáveis da interface do Flet, como um widget de mapa, um componente de barra de navegação, etc.
+static/: Arquivos estáticos como imagens, arquivos CSS personalizados, etc.
+images/: Pasta para armazenar as imagens usadas no aplicativo.
+database/: Arquivos relacionados ao banco de dados.
+db.sqlite: Arquivo do banco de dados SQLite (você pode renomeá-lo se preferir).
+requirements.txt: Lista todas as bibliotecas Python necessárias para executar o projeto (Flet, Flask/FastAPI, etc.). Isso facilita a configuração do ambiente de desenvolvimento.
