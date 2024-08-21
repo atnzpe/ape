@@ -12,6 +12,12 @@ Este repositório abrigará o código-fonte do aplicativo Pernambuco Total, um g
 - Integração com Google Maps.
 - E muito mais!
 
+## Próximos Passos
+
+- [ ] Implementar a interface do usuário com Flet.
+- [ ] Conectar o aplicativo a um banco de dados SQLite.
+- [ ] Desenvolver as funcionalidades principais (listagem de locais, busca, etc.).
+
 ## Tecnologias
 
 - **Frontend:** Python, Flet 
