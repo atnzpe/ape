@@ -31,7 +31,7 @@ def HomeScreen():
                         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     ),
                     alignment=ft.alignment.center,  # Centraliza horizontal e verticalmente
-                    theme_mode=ft.ThemeMode.DARK,  # Usando o tema escuro
+                      # Usando o tema escuro
 
                     expand=True,
                 ),
