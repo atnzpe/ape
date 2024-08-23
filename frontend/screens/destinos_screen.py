@@ -1,12 +1,17 @@
 import flet as ft
 
+class DestinosScreen(ft.UserControl):
+    def __init__(self, page):
+        super().__init__()
+        self.page = page
 
-def DestinosScreen():
-    return ft.Column(
-        [
-            ft.AppBar(title=ft.Text("Destinos - Apé")),
-            ft.Text(
-                "Em breve, uma lista de lugares incríveis para você conhecer!", size=20)
-        ],
-        expand=True,
-    )
+
+    def Build(self):
+        return ft.Column(
+            [
+                ft.Text("Explore os Destinos!", style="headlineMedium"),
+                ft.ElevatedButton("Voltar para Início", on_click=lambda _: self.page.go("/home")), 
+            ],
+            alignment="center",
+            horizontal_alignment="center",
+        )
