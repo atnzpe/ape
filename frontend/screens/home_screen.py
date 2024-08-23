@@ -3,7 +3,10 @@ import flet as ft
 
 def HomeScreen():
 
-    return ft.Container(  # Container principal para centralizar tudo
+    return ft.View(
+        route="/",
+        controls=[
+            ft.Container(  # Container principal para centralizar tudo
         content=ft.Column(
             [
                 
@@ -12,7 +15,6 @@ def HomeScreen():
                 ft.Container(
                     content=ft.Column(
                         [
-                            
                             ft.Text("Bem-vindo ao Apé!",
                                     theme_style=ft.TextThemeStyle.HEADLINE_MEDIUM),
 
@@ -34,11 +36,14 @@ def HomeScreen():
                     alignment=ft.alignment.center,  # Centraliza horizontal e verticalmente
                       # Usando o tema escuro
 
-                    expand=True,
+                    #expand=True,
                 ),
             ],
-            expand=True,
+            #expand=True,
         ),
         alignment=ft.alignment.center,  # Centraliza tudo na tela
         expand=True,
+    ),
+        ],
+        
     )

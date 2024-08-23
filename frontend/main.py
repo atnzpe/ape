@@ -10,18 +10,16 @@ from screens.destinos_screen import DestinosScreen
 # Define a função principal do aplicativo
 def main(page: ft.Page):
     # Define o título da página que será exibido na aba do navegador
-    page.title = "Apé - Seu Caminho em Pernambuco_Main"  
+    page.title = "Apé - Seu Caminho em Pernambuco"
+    #page.theme_mode=ft.ThemeMode.DARK
 
-    # Cria uma instância da tela HomeScreen
-    home_screen = HomeScreen()
+     # 1. Instancie as telas (crie os objetos)
+    home_screen = HomeScreen()  
+    destinos_screen = DestinosScreen()
 
-    #Cria a instacia da Tela DestinosScreen
-    destinos_screen = DestinosScreen 
+    # 2. Agora adicione as instâncias à página
+    page.add(home_screen)  
 
-    #Defina as rotas para cada Tela
-    page.views = [home_screen, destinos_screen]
-
-    #Defina a rota incial
     page.go(home_screen.route)
 
 # Inicia o aplicativo Flet, definindo 'main' como a função principal
