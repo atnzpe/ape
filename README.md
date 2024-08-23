@@ -24,6 +24,7 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 - [x] Implementar a interface do usuário com Flet.
 - [x] Criar as telas de boas vindas
 - [ x] Criar Página Destino (Agrega Pontos Turisiticos. Opções de abrir aplicativos como Uber, tembici, etc) do aplicativo (frontend/screens).
+ [ ] Criar Páginas Food (Agrega lista de bares, restaurantes, mercados, vendedores avulsos e feitantes. No futuro implementar pedidos através do Uber, Iffod, ou WhatsApp)
 - [ ]Cria a transição entre a tela inicial e tela de escolha de destinos
 - [ ] Testar acesso a tela de destino
 - [ ] Criar Páginas Food (Agrega lista de bares, restaurantes, mercados, vendedores avulsos e feitantes. No futuro implementar pedidos através do Uber, Iffod, ou WhatsApp)
