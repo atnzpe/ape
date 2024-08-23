@@ -21,10 +21,15 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 
 **Frontend:**
 
+***Feito***
+
 - [x] Implementar a interface do usuário com Flet.
 - [x] Criar as telas de boas vindas
 - [x] Criar Página Destino (Agrega Pontos Turisiticos. Opções de abrir aplicativos como Uber, tembici, etc) do aplicativo (frontend/screens).
 - [x] Criar Página Food (Agrega lista de bares, restaurantes, mercados, vendedores avulsos e feitantes. No futuro implementar pedidos através do Uber, Iffod, ou WhatsApp)
+
+***A Fazer***
+
 - [ ]Cria a transição entre a tela inicial e tela de escolha de destinos
 - [ ]Cria a transição entre a tela inicial e tela de de Food
 - [ ] Testar acesso a tela de destino
@@ -34,6 +39,10 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 - [ ] Integrar o frontend com a API REST.
 
 **Backend:**
+
+***Feito***
+
+***A Fazer**
 
 - [ ] Construir a API REST para conectar o frontend ao banco de dados.
 - [ ] Conectar o aplicativo a um banco de dados SQLite.
