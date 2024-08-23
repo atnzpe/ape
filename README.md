@@ -41,6 +41,7 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 **Backend:**
 
 ***Feito***
+- Por enquando nada foi feito!
 
 ***A Fazer**
 - [ ] Integrar o frontend com a API REST.
