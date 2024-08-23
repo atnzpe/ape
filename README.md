@@ -30,19 +30,20 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 
 ***A Fazer***
 
-- [ ]Cria a transição entre a tela inicial e tela de escolha de destinos
-- [ ]Cria a transição entre a tela inicial e tela de de Food
-- [ ] Testar acesso a tela de destino
-- [ ] Testar acesso a tela de food
+- [ ]Cria a transição entre a tela inicial e tela de escolha de destinos usando roteamento e navegaçõa Flet
+- [ ]Cria a transição entre a tela inicial e tela de de Food usando roteamento e navegaçõa Flet
+- [ ] Testar acesso a tela de destino usando roteamento e navegaçõa Flet
+- [ ] Testar acesso a tela de food usando roteamento e navegaçõa Flet
 - 
-- [ ] Criar Fazer a navegação entre telas
-- [ ] Integrar o frontend com a API REST.
+- [ ] Criar Fazer a navegação entre telas usando roteamento e navegaçõa Flet
+
 
 **Backend:**
 
 ***Feito***
 
 ***A Fazer**
+- [ ] Integrar o frontend com a API REST.
 
 - [ ] Construir a API REST para conectar o frontend ao banco de dados.
 - [ ] Conectar o aplicativo a um banco de dados SQLite.
