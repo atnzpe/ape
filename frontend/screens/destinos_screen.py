@@ -1,8 +1,6 @@
 import flet as ft
 
-
-def HomeScreen():
-
+def DestinosScreen():
     return ft.Container(  # Container principal para centralizar tudo
         content=ft.Column(
             [
@@ -12,11 +10,8 @@ def HomeScreen():
                 ft.Container(
                     content=ft.Column(
                         [
+                            ft.AppBar(title=ft.Text("Destinos - Apé")),
                             
-                            ft.Text("Bem-vindo ao Apé!",
-                                    theme_style=ft.TextThemeStyle.HEADLINE_MEDIUM),
-
-                            # 2. Divisores com as cores da bandeira de Pernambuco
                             ft.VerticalDivider(
                                 width=1, color='#AA4400'),  # Vermelho
                             ft.VerticalDivider(
@@ -24,10 +19,8 @@ def HomeScreen():
                             ft.VerticalDivider(
                                 width=1, color='#00AD4A'),  # Verde
                             ft.Text("Explore os encantos de Pernambuco!"),
-
-                            ft.ElevatedButton(
-                                "Começar a Explorar", on_click=lambda _: print("Clicou no botão!")
-                            ),
+                            ft.Text("Em breve, uma lista de lugares incríveis para você conhecer!", size=20)
+                            
                         ],
                         horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                     ),
