@@ -6,7 +6,7 @@ class DestinosScreen(ft.UserControl):
         self.page = page
 
 
-    def Build(self):
+    def build(self):
         return ft.Column(
             [
                 ft.Text("Explore os Destinos!", style="headlineMedium"),

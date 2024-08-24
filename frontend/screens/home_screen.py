@@ -9,11 +9,9 @@ class HomeScreen(ft.UserControl):
     def build(self):
         return ft.Column(
             [
-                ft.Text("Bem-vindo ao Apé!",theme_style=ft.TextThemeStyle.HEADLINE_MEDIUM),
+                
                 # 2. Divisores com as cores da bandeira de Pernambuco
-                ft.VerticalDivider(width=1, color='#AA4400'),  # Vermelho
-                ft.VerticalDivider(width=1, color='#FFB511'),  # Amarelo
-                ft.VerticalDivider(width=1, color='#00AD4A'),  # Verde
+                
                 ft.Text("Explore os encantos de Pernambuco!"),
                 ft.ElevatedButton("Começar a Explorar", on_click=self.abrir_modal),      
             ],
