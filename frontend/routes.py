@@ -16,8 +16,7 @@ def view_builder(page, route):
         "/food": View("/food", "/food", controls=[FoodScreen(page)],)
     }
 
-    page.views.append(route_map.get(route, View(
-        "/404", controls=[Text("Página não Encontrada")])))
+    page.views.append(route_map.get(route, View("/404", controls=[Text("Página não Encontrada")])))
     page.update()
 
 app_routes = [
