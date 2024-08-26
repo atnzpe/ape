@@ -8,26 +8,32 @@ from screens.food_screen import FoodScreen
 
 def main(page: Page):
     page.title = "Apé - Seu Caminho em Pernambuco"
-    page.theme_mode = ft.ThemeMode.DARK  # Se quiser manter o tema escuro
+    page.theme_mode = ft.ThemeMode.DARK,
+    page.horizontal_alignment = ft.CrossAxisAlignment.CENTER,
+    page.vertical_alignment = ft.MainAxisAlignment.CENTER,
 
     def view_builder(route):
         page.views.clear()
 
-        if page.route == "/":  # Rota inicial
-            page.views.append(View("/", [HomeScreen(page)]))
+        
 
-        elif page.route == "/home": 
-            page.views.append(View("/home", [HomeScreen(page)]))
-
+        # Define a rota padrão para '/' e '/home'
+        if page.route == "/":
+            page.views.append(View(page.route, [HomeScreen(page)]))
+        elif page.route == "/home":
+            page.views.append(View(page.route, [HomeScreen(page)]))
         elif page.route == "/destinos":  # Correção de digitação
-            page.views.append(View("/destinos", [DestinosScreen(page)])) 
+            page.views.append(View(page.route, [DestinosScreen(page)]))
+        elif page.route == "/food":
+            page.views.append(View(page.route, [FoodScreen(page)]))
         
-        elif page.route == "/food": 
-            page.views.append(View("/food", [FoodScreen(page)]))
         
+
         page.update()
 
     page.on_route_change = view_builder
-    page.go(page.route)
+    
+    page.go(page.route)  # Define a rota inicial como '/home'
 
-app(target=main) 
+# Inicia o aplicativo Flet, definindo 'main' como a função principal
+app(target=main, view=ft.WEB_BROWSER) 
