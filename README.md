@@ -2,6 +2,8 @@
 
 **Em construção!** 🚀 
 
+[Apé: em Tupi-guarani significa caminho, trilha.](https://www.google.com/search?q=Como+se+diz+trilha+em+tupi-guarani%3F&newwindow=1&safe=active&sca_esv=d71f265c45fd02a5&rlz=1C1GCEA_enBR1006BR1006&sxsrf=ADLYWIKZfFFJzbrBFoRk6USbyGAHQSVmzw%3A1724699678254&ei=HtTMZu2RD_zX1sQPgsn26Qw&ved=0ahUKEwjtmKr9rpOIAxX8q5UCHYKkPc0Q4dUDCBA&uact=5&oq=Como+se+diz+trilha+em+tupi-guarani%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiI0NvbW8gc2UgZGl6IHRyaWxoYSBlbSB0dXBpLWd1YXJhbmk_MgUQIRigATIFECEYoAEyBRAhGKABMgUQIRigAUj5DFCSCViSCXADeAGQAQCYAfABoAHwAaoBAzItMbgBA8gBAPgBAvgBAZgCBKAChQLCAgoQABiwAxjWBBhHmAMA4gMFEgExIECIBgGQBgiSBwUzLjAuMaAHtAQ&sclient=gws-wiz-serp)
+
 Este repositório abrigará o código-fonte do aplicativo Pernambuco Total, um guia turístico completo para explorar as maravilhas de Pernambuco.
 
 O Pernambuco Total é um aplicativo web e mobile que ajuda turistas a explorarem os encantos de Pernambuco de forma fácil e personalizada. 
