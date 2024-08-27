@@ -32,10 +32,10 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 
 ***A Fazer***
 
-- [ ]Cria a transição entre a tela inicial e tela de escolha de destinos usando roteamento e navegaçõa Flet
-- [ ]Cria a transição entre a tela inicial e tela de de Food usando roteamento e navegaçõa Flet
-- [ ] Testar acesso a tela de destino usando roteamento e navegaçõa Flet
-- [ ] Testar acesso a tela de food usando roteamento e navegaçõa Flet
+- [x]Cria a transição entre a tela inicial e tela de escolha de destinos usando roteamento e navegaçõa Flet
+- [x]Cria a transição entre a tela inicial e tela de de Food usando roteamento e navegaçõa Flet
+- [x] Testar acesso a tela de destino usando roteamento e navegaçõa Flet
+- [x] Testar acesso a tela de food usando roteamento e navegaçõa Flet
 - 
 - [ ] Criar Fazer a navegação entre telas usando roteamento e navegaçõa Flet
 

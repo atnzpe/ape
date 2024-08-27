@@ -2,35 +2,42 @@
 import flet as ft
 
 
-
 class HomeScreen(ft.UserControl):
     def __init__(self, page):
         super().__init__()
-        self.page = page  # Salve a referência à página
+        self.page = page  # Referecia a página
 
     def build(self):
         return ft.Column(
             [
-                ft.Text("Bem-vindo ao Ape Turismo!"),
+                ft.Text("TELA DE BOAS VINDAS"),
+                ft.Text("Explore os encantos de Pernambuco!"),
                 ft.ElevatedButton("Começar a Explorar", on_click=self.abrir_modal),
+                ft.Text("INCLUIR UMA IMAGEM - EM BREVE"),      
             ],
             alignment="center",
             horizontal_alignment="center",
-            
         )
 
     def abrir_modal(self, e):
         self.page.dialog = ft.AlertDialog(
             modal=True,
-            title=ft.Text("Para onde vamos?"),
+            title=ft.Text("Queres o que?"),
             content=ft.Column(
                 [
                     ft.ElevatedButton("Encher o Buxo", on_click=lambda _: self.page.go("/food")),
-                    ft.ElevatedButton("Dar uma Voltinha", on_click=lambda _: self.page.go("/destinos")),
-                    ft.ElevatedButton("Voltar", on_click=lambda _: self.page.go("/home")),
-
+                    ft.ElevatedButton("Dar uma Voltinha", on_click=lambda _: self.page.go("/destino")),
+                    ft.ElevatedButton("Fechar", on_click=self.fechar_modal_preview),
                 ]
             ),
+            
         )
+
         self.page.dialog.open = True
         self.page.update()
+
+    def fechar_modal_preview(self, e):
+        """Fecha o modal de pré-visualização."""
+        if self.page.dialog:
+            self.page.dialog.open = False
+            self.page.update()
