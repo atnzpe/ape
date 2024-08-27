@@ -27,18 +27,18 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 
 - [x] Implementar a interface do usuário com Flet.
 - [x] Criar as telas de boas vindas
-- [x] Criar Página Destino (Agrega Pontos Turisiticos. Opções de abrir aplicativos como Uber, tembici, etc) do aplicativo (frontend/screens).
-- [x] Criar Página Food (Agrega lista de bares, restaurantes, mercados, vendedores avulsos e feitantes. No futuro implementar pedidos através do Uber, Iffod, ou WhatsApp)
-
-***A Fazer***
-
+- [x] Criar Página Destino (Em breve: Agrega Pontos Turisiticos. Opções de abrir aplicativos como Uber, tembici, etc) do aplicativo (frontend/screens).
+- [x] Criar Página Food (Em breve: Agrega lista de bares, restaurantes, mercados, vendedores avulsos e feitantes. No futuro implementar pedidos através do Uber, Iffod, ou WhatsApp)
 - [x]Cria a transição entre a tela inicial e tela de escolha de destinos usando roteamento e navegaçõa Flet
 - [x]Cria a transição entre a tela inicial e tela de de Food usando roteamento e navegaçõa Flet
 - [x] Testar acesso a tela de destino usando roteamento e navegaçõa Flet
 - [x] Testar acesso a tela de food usando roteamento e navegaçõa Flet
 - 
-- [ ] Criar Fazer a navegação entre telas usando roteamento e navegaçõa Flet
+- [x] Incluir botão 'sair' na tela home_screen
 
+***A Fazer***
+
+- Por enquanto não temos nada
 
 **Backend:**
 
@@ -46,9 +46,10 @@ planejar roteiros, obter informações detalhadas sobre cada local e muito mais!
 - Por enquando nada foi feito!
 
 ***A Fazer**
-- [ ] Integrar o frontend com a API REST.
+
 
 - [ ] Construir a API REST para conectar o frontend ao banco de dados.
+- [ ] Integrar o frontend com a API REST.
 - [ ] Conectar o aplicativo a um banco de dados SQLite.
 - [ ] Modelar o banco de dados SQLite (vamos precisar de tabelas para Locais, Roteiros, etc.).    
 

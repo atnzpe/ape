@@ -1,5 +1,6 @@
 # home_screen.py
 import flet as ft
+import os
 
 
 class HomeScreen(ft.UserControl):
@@ -13,7 +14,9 @@ class HomeScreen(ft.UserControl):
                 ft.Text("TELA DE BOAS VINDAS"),
                 ft.Text("Explore os encantos de Pernambuco!"),
                 ft.ElevatedButton("Começar a Explorar", on_click=self.abrir_modal),
-                ft.Text("INCLUIR UMA IMAGEM - EM BREVE"),      
+                ft.Text("INCLUIR UMA IMAGEM - EM BREVE"),
+                # Sair do App
+                ft.ElevatedButton("Sair", on_click=self.sair_do_app),      
             ],
             alignment="center",
             horizontal_alignment="center",
@@ -41,3 +44,6 @@ class HomeScreen(ft.UserControl):
         if self.page.dialog:
             self.page.dialog.open = False
             self.page.update()
+
+    def sair_do_app(self, e):
+        self.page.window_destroy()
